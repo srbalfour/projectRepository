@@ -1,0 +1,31 @@
+body{
+  width:90%;
+}
+
+h1{
+  text-align: center;
+  font-family:cursive;
+  color:#0251c0;
+}
+
+/*navigationBar links change colour when hovered over and clicked*/
+a{
+  color:#545357;
+}
+a:hover{
+  color:#0251c0;
+}
+a:after{
+  color:black;
+}
+
+/*navigationBar all in line*/
+li{
+  font-family:cursive;
+  display:inline;
+  padding:1%;
+}
+
+#navigationBar{
+  background-color: #6189c0;
+}
