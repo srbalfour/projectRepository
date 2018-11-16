@@ -1,5 +1,7 @@
 body{
-  width:90%;
+  margin:0%;
+  padding:0%
+  width:100%;
 }
 
 h1{
@@ -15,9 +17,6 @@ a{
 a:hover{
   color:#0251c0;
 }
-a:after{
-  color:black;
-}
 
 /*navigationBar all in line*/
 li{
@@ -28,4 +27,35 @@ li{
 
 #navigationBar-CV{
   background-color: #6189c0;
+}
+
+/*footer*/
+
+
+#CVFooter{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:10%;
+  background-color: #6189c0;
+
+}
+
+#contactLink,#homeLink{
+  font-family:cursive;
+  font-size: 12px;
+  text-align: left;
+  padding:0%;
+  padding-left:1%;
+
+}
+#contactLink{
+  padding-top:0.5%;
+}
+
+#footerLinks{
+  display:grid;
+  padding:0%;
+  position:relative;
 }
