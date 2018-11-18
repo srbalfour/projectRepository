@@ -81,21 +81,13 @@ li{
   padding:0%;
   position:relative;
 }
-#date{
-  float:left;
-  color:#545357;
-}
 
 
-
+/*carousel of pictures*/
 i{
   color:#545357;
 }
-/*
-$('.carousel').carousel({
- interval: 2000
-})
-*/
+
 .carousel-item {
   height: 65vh;
   min-height: 350px;
