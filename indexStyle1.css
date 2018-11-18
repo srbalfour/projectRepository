@@ -83,11 +83,12 @@ li{
 }
 
 
-/*carousel of pictures*/
+/*icons*/
 i{
   color:#545357;
 }
 
+/*carousel of pictures*/
 .carousel-item {
   height: 65vh;
   min-height: 350px;
