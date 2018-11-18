@@ -109,11 +109,11 @@ $('.carousel').carousel({
   text-align: justify;
   font-family: 'Karla', sans-serif;
   color:#0251c0;
+  margin-bottom: 5%;
 }
 #carouselText{
   color:#6189c0;
   background-color: #545357;
   padding-left: 5%;
   padding-right: 5%;
-
 }
