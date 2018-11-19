@@ -4,6 +4,8 @@ body{
   margin:0%;
   padding:0%
   width:100%;
+  margin-bottom:20%;
+  padding-bottom:10%;
 }
 
 h1{
@@ -25,6 +27,7 @@ a:hover{
 }
 
 /*navigationBar all in line*/
+
 li{
   font-family: 'Karla', sans-serif;
   display:inline;
@@ -40,6 +43,7 @@ li{
   padding:0%;
   height:5%;
 }
+
 
 /*footer*/
 
@@ -79,4 +83,55 @@ li{
 /*icons*/
 i{
   color:#545357;
+}
+
+/*main content*/
+
+img{
+  margin:20%;
+
+}
+#cvImage{
+  max-width: 30%;
+  float:left;
+}
+
+#education,#skills{
+  display:grid;
+  text-align: justify;
+  color:#6189c0;
+  margin:0%;
+}
+#cvInformation{
+  max-width: 75%;
+  float:right;
+}
+#skills{
+  margin-bottom: 10%;
+}
+
+h2{
+  margin-top:5%;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #6189c0;
+  color:#545357;
+  padding-bottom:0%;
+  padding:1%;
+  margin-bottom:0%;
+
+}
+h3{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #545357;
+  color:#6189c0;
+  margin:0%;
+  padding:1%;
+}
+p{
+  text-align: justify;
+  font-family: 'Karla', sans-serif;
+  color: #6189c0;
+  margin:1%;
 }
