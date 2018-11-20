@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Karla:400');
 
 body{
+  width:100%;
   margin:0%;
   padding:0%
-  width:100%;
 }
 
 h1{
@@ -126,26 +126,6 @@ p{
   background-color:#545357;
   display: grid;
 }
-#mainLogo{
+#mainLogo1,#mainLogo2,#mainLogo3{
   color:#6189c0;
 }
-/* img{
-  border-radius: 50%;
-  margin:5%;
-
-} */
-
-/*sourced from bootstrap*/
-/* .bg { */
-  /* The image used */
-  /* background-image: url("https://picsum.photos/1920/1080?random"); */
-
-
-  /* Full height */
- /* height: 100%; */
-
-  /* Center and scale the image nicely */
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
