@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Karla:400');
 
 body{
+  width:100%;
   margin:0%;
   padding:0%
-  width:100%;
+
 
 }
 
@@ -104,7 +105,7 @@ i{
   color:#0251c0;
   margin-bottom: 5%;
 }
-#carouselText{
+#carouselText1,#carouselText2,#carouselText3{
   color:#6189c0;
   background-color: #545357;
   padding-left: 5%;
