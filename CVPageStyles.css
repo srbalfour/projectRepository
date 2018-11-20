@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Karla:400');
 
 body{
-  margin:0%;
-  padding:0%
   width:100%;
-  margin-bottom:20%;
+  margin-bottom: 20%;
   padding-bottom:10%;
+
 }
 
 h1{
@@ -108,6 +107,7 @@ img{
 }
 #skills{
   margin-bottom: 10%;
+  margin-right: 8%;
 }
 
 h2{
@@ -119,6 +119,7 @@ h2{
   padding-bottom:0%;
   padding:1%;
   margin-bottom:0%;
+  margin-right:6%;
 
 }
 h3{
@@ -128,15 +129,18 @@ h3{
   color:#6189c0;
   margin:0%;
   padding:1%;
+  margin-right:6%;
 }
 p{
   text-align: justify;
   font-family: 'Karla', sans-serif;
   color: #6189c0;
-  margin:1%;
+  margin-right:8%;
+
 }
 .timeline{
   font-family: 'Karla', sans-serif;
   text-align: center;
   color:#545357;
+  margin:0%;
 }
