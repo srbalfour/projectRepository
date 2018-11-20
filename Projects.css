@@ -2,9 +2,10 @@
 
 
 body{
+  width:100%;
   margin:0%;
   padding:0%
-  width:100%;
+
 
 }
 
@@ -81,4 +82,47 @@ li{
 /*icons*/
 i{
   color:#545357;
+}
+
+/*page content*/
+
+img{
+  margin-left:10%;
+  margin-top:2%;
+}
+.col-md-4,.col-md-6{
+  display:inline;
+}
+.col-md-4{
+  float:right;
+}
+h3{
+    background-color: #6189c0;
+    color:#545357;
+    padding-bottom:0%;
+    margin:0%;
+}
+#heading{
+  padding-bottom:0%;
+  padding:1%;
+  margin-bottom:0%;
+}
+p{
+  color:#6189c0;
+  background-color: #545357;
+  padding:2%;
+  margin:0%;
+  text-align: justify;
+}
+
+#projectList{
+  color:#6189c0;
+  padding-left: 5%;
+  padding-right: 5%;
+  display:grid;
+  margin-top:0%;
+  text-align: justify;
+}
+.row{
+  margin-bottom: 5%;
 }
