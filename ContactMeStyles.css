@@ -81,3 +81,71 @@ li{
 i{
   color:#545357;
 }
+
+/*main content*/
+
+#contactMeContainer{
+background-color: #9AB3D6;
+background-size: 100%;
+margin:0%;
+padding-top:3%;
+padding-bottom: 10%;
+}
+
+#ContactMeContent{
+  max-Width:30%;
+  margin-left:35%;
+  margin-top:10%;
+}
+
+h3{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  color:#545357;
+  background-color:#6189c0;
+  padding: 0%;
+  padding-top:1%;
+  margin:0%;
+  margin-top:0%;
+
+}
+p{
+  font-family: 'Karla', sans-serif;
+  text-align: center;
+  color:#545357;
+  background-color:#6189c0;
+  padding:0%;
+  margin:0%;
+}
+#contactInfo{
+  font-family: 'Karla', sans-serif;
+  text-align: justify;
+  text-indent: 10%;
+  margin:0%;
+  color:#6189c0;
+  background-color:#545357;
+  display: grid;
+}
+#mainLogo{
+  color:#6189c0;
+}
+/* img{
+  border-radius: 50%;
+  margin:5%;
+
+} */
+
+/*sourced from bootstrap*/
+/* .bg { */
+  /* The image used */
+  /* background-image: url("https://picsum.photos/1920/1080?random"); */
+
+
+  /* Full height */
+ /* height: 100%; */
+
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
