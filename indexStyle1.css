@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Karla:400');
+
+body{
+  width:100%;
+  margin:0%;
+  padding:0%
+
+
+}
+
+h1,h2{
+  text-align: center;
+  color:#0251c0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+  margin-top:1%;
+  font-size:50px;
+}
+
+/*navigationBar links change colour when hovered over and clicked*/
+a{
+  color:#545357;
+}
+a:hover{
+  color:#0251c0;
+}
+
+h3{
+    background-color: #6189c0;
+    color:#545357;
+    margin:0%;
+}
+
+/*navigationBar all in line*/
+li{
+  font-family: 'Karla', sans-serif;
+  display:inline;
+  padding:1%;
+}
+
+
+#navigationBar{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #6189c0;
+  margin:0%;
+  padding:0%;
+  height:5%;
+}
+
+
+/*footer*/
+
+
+#footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:10%;
+  background-color: #6189c0;
+
+}
+
+#contactLink,#homeLink{
+  font-family: 'Karla', sans-serif;
+  font-size: 12px;
+  text-align: left;
+  padding:0%;
+  padding-left:1%;
+  margin-top:1%;
+
+}
+#contactLink{
+  margin-top:0%;
+}
+
+#footerLinks{
+  display:grid;
+  padding:0%;
+  position:relative;
+}
+
+
+/*icons*/
+i{
+  color:#545357;
+}
+
+/*carousel of pictures*/
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.lead{
+  text-align: justify;
+  font-family: 'Karla', sans-serif;
+  color:#0251c0;
+  margin-bottom: 5%;
+}
+#carouselText1,#carouselText2,#carouselText3{
+  color:#6189c0;
+  background-color: #545357;
+  padding-left: 5%;
+  padding-right: 5%;
+}

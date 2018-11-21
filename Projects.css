@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Karla:400');
+
+
+body{
+  width:100%;
+  margin:0%;
+  padding:0%
+
+
+}
+
+h1{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color:#0251c0;
+}
+h1{
+  margin-top:1%;
+  font-size:50px;
+}
+
+/*navigationBar links change colour when hovered over and clicked*/
+a{
+  color:#545357;
+}
+a:hover{
+  color:#0251c0;
+}
+
+/*navigationBar all in line*/
+li{
+  font-family: 'Karla', sans-serif;
+  display:inline;
+  padding:1%;
+}
+
+#navigationBar-projects{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #6189c0;
+  margin:0%;
+  padding:0%;
+  height:5%;
+}
+
+/*footer*/
+
+
+#projectFooter{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:10%;
+  background-color: #6189c0;
+
+}
+
+#contactLink,#homeLink{
+  font-family: 'Karla', sans-serif;
+  font-size: 12px;
+  text-align: left;
+  padding:0%;
+  padding-left:1%;
+  margin-top:0%;
+  margin-bottom:1%;
+}
+#contactLink{
+  margin-top:0%;
+}
+#homeLink{
+  margin-bottom:0%;
+}
+
+#projectFooterLinks{
+  display:grid;
+  padding:0%;
+  position:relative;
+}
+
+/*icons*/
+i{
+  color:#545357;
+}
+
+/*page content*/
+
+img{
+  margin-left:10%;
+  margin-top:2%;
+}
+.col-md-4,.col-md-6{
+  display:inline;
+}
+.col-md-4{
+  float:right;
+}
+h3{
+    background-color: #6189c0;
+    color:#545357;
+    padding-bottom:0%;
+    margin:0%;
+}
+#heading{
+  padding-bottom:0%;
+  padding:1%;
+  margin-bottom:0%;
+}
+p{
+  color:#6189c0;
+  background-color: #545357;
+  padding:2%;
+  margin:0%;
+  text-align: justify;
+}
+
+#projectList{
+  color:#6189c0;
+  padding-left: 5%;
+  padding-right: 5%;
+  display:grid;
+  margin-top:0%;
+  text-align: justify;
+}
+.row{
+  margin-bottom: 5%;
+}
