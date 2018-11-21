@@ -80,8 +80,6 @@ li{
 /*icons*/
 i{
   color:#545357;
-  font-family: 'Karla', sans-serif;
-
 }
 
 /*main content*/
@@ -121,7 +119,8 @@ p{
 }
 #contactInfo{
   font-family: 'Karla', sans-serif;
-  text-align: justify;
+  text-align: left;
+  text-indent: 2%;
   text-indent: 10%;
   margin:0%;
   color:#6189c0;
