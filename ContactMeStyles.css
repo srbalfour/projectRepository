@@ -121,11 +121,12 @@ p{
   font-family: 'Karla', sans-serif;
   text-align: left;
   text-indent: 2%;
-  text-indent: 10%;
+  /* text-indent: 10%; */
   margin:0%;
   color:#6189c0;
   background-color:#545357;
   display: grid;
+  margin-left:1%;
 }
 #mainLogo1,#mainLogo2,#mainLogo3{
   color:#6189c0;
